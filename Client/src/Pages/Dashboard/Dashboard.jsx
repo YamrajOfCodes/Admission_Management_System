@@ -36,7 +36,7 @@ const DashboardPage = () => {
     getallStudents();
     fetchEnquiries();
     fetchApplications();
-  }, [createapplication,updatestatus,getallstudents]);
+  }, [createapplication,updatestatus]);
 
  const getallStudents = async () => {
     dispatch(getAllStudents())
